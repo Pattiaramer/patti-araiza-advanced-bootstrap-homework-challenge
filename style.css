@@ -107,3 +107,14 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media (max-width: 576px) {
+  .small-device {
+    display: none;
+  }
+
+  .text-center {
+    margin: auto 0;
+    display: flex;
+  }
+}
